@@ -1,3 +1,4 @@
+// Root layout: shared HTML shell (Header, AppNav, Footer) wrapping every routed page via <Outlet />.
 import { HeadContent, Outlet, Scripts, createRootRoute } from '@tanstack/react-router'
 import { TanStackRouterDevtoolsPanel } from '@tanstack/react-router-devtools'
 import { TanStackDevtools } from '@tanstack/react-devtools'
